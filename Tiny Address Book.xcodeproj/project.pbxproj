@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		49F526861D6B82D40005F915 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F526851D6B82D40005F915 /* main.m */; };
+		49F5268E1D6B82F90005F915 /* Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F5268D1D6B82F90005F915 /* Entry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		49F526821D6B82D40005F915 /* Tiny Address Book */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Tiny Address Book"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F526851D6B82D40005F915 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49F5268C1D6B82F90005F915 /* Entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entry.h; sourceTree = "<group>"; };
+		49F5268D1D6B82F90005F915 /* Entry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entry.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				49F526851D6B82D40005F915 /* main.m */,
+				49F5268C1D6B82F90005F915 /* Entry.h */,
+				49F5268D1D6B82F90005F915 /* Entry.m */,
 			);
 			path = "Tiny Address Book";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49F5268E1D6B82F90005F915 /* Entry.m in Sources */,
 				49F526861D6B82D40005F915 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,15 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Entry : NSObject
+@interface Entry : NSObject {
+}
 
-@property (nonatomic) NSString *name;
-@property (nonatomic) NSString *email;
+@property NSString *name;
+@property NSString *email;
+@property NSString *buddy;
+@property NSMutableArray *addressBook;
 
--(instancetype) initWithName:(NSString*)defaultName;
-
--(void) getInfo;
-
--(NSString *) userName: (NSString *) userName;
+-(instancetype)initWithName:(NSString *)name Email:(NSString *)email Buddy:(NSString *)buddy;
 
 @end
+

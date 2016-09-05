@@ -252,6 +252,7 @@
 				49F5268B1D6B82D40005F915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

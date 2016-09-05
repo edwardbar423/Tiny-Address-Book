@@ -10,26 +10,16 @@
 
 @implementation Entry
 
--(instancetype)init
-{
+-(instancetype)initWithName:(NSString *)name Email:(NSString *)email Buddy:(NSString *)buddy{
     self = [super init];
     if (self) {
-        self.name = @"No Name";
-    }
+        _name = name;
+        _email = email;
+        _buddy = buddy;
+        _addressBook = [[NSMutableArray alloc] init];
+            }
+    
     return self;
-}
-
-- (instancetype) initWithName:(NSString *)defaultName
-{
-    self = [super init];
-    if (self) {
-        self.name = defaultName;
-    }
-    return self;
-}
-
--(void) getInfo{
-    NSLog(@"Random Info");
 }
 
 @end
